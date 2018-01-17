@@ -9,8 +9,11 @@ A PowerShell script for compressing PNG files, using pnggaunt.
 ## Setup
 1. Download repo
 2. Download dependencies
-3. Change settings (top of the script)
-4. Create schedule task to run the script every week or so
+3. Install C++ Redistributable
+4. Change settings (top of the script)
+5. Create directories for logs and backup
+6. Test the script by running ./PNGOptimizer.ps1, verify that PNGs is shrinking and backups is made
+7. Create schedule task to run the script every week or so
 
 ## About
 The script compresses PNG files. Before doing so it will backup the files, just to be safe.
